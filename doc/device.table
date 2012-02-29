@@ -1,0 +1,337 @@
+:Controller
+SSD1325
+:Display/Size
+NHD-27-12864, 128x64
+:Mode
+BW
+:Set Contrast
+no
+:Page Size
+128 Bytes
+:Com
+SW SPI
+:Device
+<tt>u8g_dev_ssd1325_nhd27oled_bw_sw_spi</tt>
+:C++ Constructor
+<tt>U8GLIB_NHD27OLED_BW(sck, mosi, cs, a0 [, reset])</tt>
+:Com
+HW SPI
+:Device
+<tt>u8g_dev_ssd1325_nhd27oled_bw_hw_spi</tt>
+:C++ Constructor
+<tt>U8GLIB_NHD27OLED_BW(cs, a0 [, reset])</tt>
+::
+:Mode
+4L
+:Set Contrast
+yes
+:Page Size
+128 Bytes
+:Com
+SW SPI
+:Device
+<tt>u8g_dev_ssd1325_nhd27oled_gr_sw_spi</tt>
+:C++ Constructor
+<tt>U8GLIB_NHD27OLED_GR(sck, mosi, cs, a0 [, reset])</tt>
+:Com
+HW SPI
+:Device
+<tt>u8g_dev_ssd1325_nhd27oled_gr_hw_spi</tt>
+:C++ Constructor
+<tt>U8GLIB_NHD27OLED_GR(cs, a0 [, reset])</tt>
+::
+:Controller
+UC1701
+:Display/Size
+DOGS102, 102x64
+:Mode
+BW
+:Set Contrast
+no
+:Page Size
+102 Bytes
+:Com
+SW SPI
+:Device
+<tt>u8g_dev_uc1701_dogs102_sw_spi</tt>
+:C++ Constructor
+<tt>U8GLIB_DOGS102(sck, mosi, cs, a0 [, reset])</tt>
+:Com
+HW SPI
+:Device
+<tt>u8g_dev_uc1701_dogs102_hw_spi</tt>
+:C++ Constructor
+<tt>U8GLIB_DOGS102(cs, a0 [, reset])</tt>
+::
+:Controller
+ST7565
+:Display/Size
+DOGM128, 128x64
+:Mode
+BW
+:Set Contrast
+no
+:Page Size
+128 Bytes
+:Com
+SW SPI
+:Device
+<tt>u8g_dev_st7565_dogm128_sw_spi</tt>
+:C++ Constructor
+<tt>U8GLIB_DOGM128(sck, mosi, cs, a0 [, reset])</tt>
+:Com
+HW SPI
+:Device
+<tt>u8g_dev_st7565_dogm128_hw_spi</tt>
+:C++ Constructor
+<tt>U8GLIB_DOGM128(cs, a0 [, reset])</tt>
+::
+:Display/Size
+LM6059, 128x64, Adafruit
+:Mode
+BW
+:Set Contrast
+no
+:Page Size
+128 Bytes
+:Com
+SW SPI
+:Device
+<tt>u8g_dev_st7565_lm6059_sw_spi</tt>
+:C++ Constructor
+<tt>U8GLIB_LM6059(sck, mosi, cs, a0 [, reset])</tt>
+:Com
+HW SPI
+:Device
+<tt>u8g_dev_st7565_lm6059_hw_spi</tt>
+:C++ Constructor
+<tt>U8GLIB_LM6059(cs, a0 [, reset])</tt>
+::
+:Display/Size
+LM6063, 128x64
+:Mode
+BW
+:Set Contrast
+no
+:Page Size
+128 Bytes
+:Com
+SW SPI
+:Device
+<tt>u8g_dev_st7565_lm6063_sw_spi</tt>
+:C++ Constructor
+<tt>U8GLIB_LM6063(sck, mosi, cs, a0 [, reset])</tt>
+:Com
+HW SPI
+:Device
+<tt>u8g_dev_st7565_lm6063_hw_spi</tt>
+:C++ Constructor
+<tt>U8GLIB_LM6063(cs, a0 [, reset])</tt>
+::
+:Display/Size
+DOGM132, 132x32
+:Mode
+BW
+:Set Contrast
+no
+:Page Size
+132 Bytes
+:Com
+SW SPI
+:Device
+<tt>u8g_dev_st7565_dogm132_sw_spi</tt>
+:C++ Constructor
+<tt>U8GLIB_DOGM132(sck, mosi, cs, a0 [, reset])</tt>
+:Com
+HW SPI
+:Device
+<tt>u8g_dev_st7565_dogm132_hw_spi</tt>
+:C++ Constructor
+<tt>U8GLIB_DOGM132(cs, a0 [, reset])</tt>
+::
+:Controller
+ST7920
+:Display/Size
+128x64
+:Mode
+BW
+:Set Contrast
+no
+:Page Size
+128 Bytes
+:Com
+SW SPI
+:Device
+<tt>u8g_dev_st7920_128x64_sw_spi</tt>
+:C++ Constructor
+<tt>U8GLIB_ST7920_128X64(sck, mosi, cs, a0 [, reset])</tt>
+:Com
+8 Bit
+:Device
+<tt>u8g_dev_st7920_128x64_8bit</tt>
+:C++ Constructor
+<tt>U8GLIB_ST7920_128X64(d0, d1, d2, d3, d4, d5, d6, d7, en, cs1, cs2, di, rw [, reset])</tt>
+::
+:Display/Size
+192x32
+:Mode
+BW
+:Set Contrast
+no
+:Page Size
+192 Bytes
+:Com
+SW SPI
+:Device
+<tt>u8g_dev_st7920_192x32_sw_spi</tt>
+:C++ Constructor
+<tt>U8GLIB_ST7920_192X32(sck, mosi, cs, a0 [, reset])</tt>
+:Com
+8 Bit
+:Device
+<tt>u8g_dev_st7920_192x32_8bit</tt>
+:C++ Constructor
+<tt>U8GLIB_ST7920_192X32(d0, d1, d2, d3, d4, d5, d6, d7, en, cs1, cs2, di, rw [, reset])</tt>
+::
+:Controller
+UC1610
+:Display/Size
+DOGXL160, 160x104
+:Mode
+BW
+:Set Contrast
+yes
+:Page Size
+160 Bytes
+:Com
+SW SPI
+:Device
+<tt>u8g_dev_uc1610_dogxl160_bw_sw_spi</tt>
+:C++ Constructor
+<tt>U8GLIB_DOGXL160_BW(sck, mosi, cs, a0 [, reset])</tt>
+:Com
+HW SPI
+:Device
+<tt>u8g_dev_uc1610_dogxl160_bw_hw_spi</tt>
+:C++ Constructor
+<tt>U8GLIB_DOGXL160_BW(cs, a0 [, reset])</tt>
+::
+:Mode
+4L
+:Set Contrast
+yes
+:Page Size
+160 Bytes
+:Com
+SW SPI
+:Device
+<tt>u8g_dev_uc1610_dogxl160_gr_sw_spi</tt>
+:C++ Constructor
+<tt>U8GLIB_DOGXL160_GR(sck, mosi, cs, a0 [, reset])</tt>
+:Com
+HW SPI
+:Device
+<tt>u8g_dev_uc1610_dogxl160_gr_hw_spi</tt>
+:C++ Constructor
+<tt>U8GLIB_DOGXL160_GR(cs, a0 [, reset])</tt>
+::
+:Controller
+PCD8544
+:Display/Size
+84x48
+:Mode
+BW
+:Set Contrast
+no
+:Page Size
+84 Bytes
+:Com
+SW SPI
+:Device
+<tt>u8g_dev_pcd8544_84x48_sw_spi</tt>
+:C++ Constructor
+<tt>U8GLIB_PCD8544(sck, mosi, cs, a0 [, reset])</tt>
+::
+:Controller
+PCF8812
+:Display/Size
+96x65
+:Mode
+BW
+:Set Contrast
+no
+:Page Size
+96 Bytes
+:Com
+SW SPI
+:Device
+<tt>u8g_dev_pcf8812_96x65_sw_spi</tt>
+:C++ Constructor
+<tt>U8GLIB_PCF8812(sck, mosi, cs, a0 [, reset])</tt>
+::
+:Controller
+KS0108
+:Display/Size
+128x64
+:Mode
+BW
+:Set Contrast
+no
+:Page Size
+128 Bytes
+:Com
+8Bit
+:Device
+<tt>u8g_dev_ks0108_128x64</tt>
+:C++ Constructor
+:Com
+8Bit Fast
+:Device
+<tt>u8g_dev_ks0108_128x64_fast</tt>
+:C++ Constructor
+<tt>U8GLIB_KS0108_128(d0, d1, d2, d3, d4, d5, d6, d7, en, cs1, cs2, di, rw [, reset])</tt>
+::
+:Controller
+stdout
+:Display/Size
+Console, 70x30
+:Mode
+BW
+:Set Contrast
+n.a.
+:Page Size
+70 Bytes
+:Com
+:Device
+<tt>u8g_dev_stdout</tt>
+:C++ Constructor
+
+::
+:Controller
+SDL
+:Display/Size
+Desktop, 128x64
+:Mode
+BW
+:Set Contrast
+no
+:Page Size
+128 Bytes
+:Com
+
+:Device
+<tt>u8g_dev_sdl_1bit</tt>
+:C++ Constructor
+
+:Mode
+4L
+:Set Contrast
+no
+:Page Size
+128 Bytes
+:Com
+
+:Device
+<tt>u8g_dev_sdl_2bit</tt>
+:C++ Constructor
+
